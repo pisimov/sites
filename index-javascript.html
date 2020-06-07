@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>polymer clay</title>
+</head>
+
+<script>
+function loadImage(){
+	let url = document.getElementById('img_url').value;
+	document.getElementById('imageElement').src = url;	
+}
+
+</script>
+
+<body>
+<input type="text" id='img_url'/> 
+<input type="button" value="Load" onclick="loadImage()" />
+<br><br><br>
+<img id='imageElement' src="https://i.pinimg.com/originals/c1/fd/e0/c1fde0587269068fc06cbf4eef3d82a6.jpg" width="100">
+
+
+</body>
+</html>

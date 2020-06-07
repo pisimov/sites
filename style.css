@@ -1,0 +1,38 @@
+.poza-mica{
+	width: 100px
+}
+.poza-medie{
+	width: 200px
+}
+.grid-1{
+	display:grid;
+	height:100px;
+}
+.purple{
+	background-color:purple;
+}
+.grid-2 {
+	display:grid;
+	height:100px;
+	grid-template-columns: 30% 70%;
+	grid-gap: 10px;
+}
+.pink{
+	background-color:pink;
+}
+
+.rand-1{
+	display:grid;
+	justify-content: center;
+}
+.pisica{
+height: 100px;
+}
+.rand-2{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.flower{
+	width: 200px;
+	height: 200px;
+}
