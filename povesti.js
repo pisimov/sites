@@ -13,3 +13,8 @@ function search() {
         }
     }
 }
+
+function filter(query){
+    document.getElementById('searchbox').value = query;
+    search();
+}
